@@ -30,6 +30,17 @@
 
     <!-- Template Stylesheet -->
     <link href="css/style.css" rel="stylesheet">
+    <style>
+        .feature-item {
+    transition: transform 0.3s;
+    cursor: pointer; /* Add a transition to the 'transform' property */
+}
+
+.feature-item:hover {
+    transform: scale(1.1); /* Increase the scale to 1.1 on hover (you can adjust this value) */
+}
+
+    </style>
 </head>
 
 <body>
@@ -81,7 +92,8 @@
             <div class="navbar-nav me-auto">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About</a>
-                <a href="service.html" class="nav-item nav-link">Services</a>
+                <a href="service.html" class="nav-item nav-link active">Products</a>
+                <a href="brands.html" class="nav-item nav-link">Brands</a>
                 <!-- <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
                     <div class="dropdown-menu fade-up m-0">
@@ -99,7 +111,7 @@
                 </div>
                 <div class="ms-3">
                     <!-- <p class="mb-1 text-white">Emergency 24/7</p> -->
-                    <h5 class="m-0 text-secondary">971 502028521</h5>
+                    <h5 class="m-0 text-light">971 502028521</h5>
                 </div>
             </div>
         </div>
@@ -111,21 +123,224 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header mb-5 py-5">
         <div class="container">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Products</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb text-uppercase">
                     <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
                     <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Products</li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
-
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="row g-4">
+               
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="feature-item position-relative  text-center p-3" style="background: rgb(250,218,46);
+background: linear-gradient(90deg, rgba(250,218,46,1) 0%, rgba(250,218,46,1) 44%, rgba(250,227,46,1) 73%, rgba(250,241,46,1) 100%);">
+                        <a href="#product1">
+                            <div class="border py-5 px-3">
+                            <i class="fas fa-tools fa-3x text-primary mb-4"></i>
+                            <h5 class="text-dark mb-0">Genuine Komatsu Parts</h5>
+                        </div>
+                    </a>
+                    </div>
+                </div>
+            
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="feature-item position-relative  text-center p-3" style="background: rgb(250,218,46);
+                    background: linear-gradient(90deg, rgba(250,218,46,1) 0%, rgba(250,218,46,1) 44%, rgba(250,227,46,1) 73%, rgba(250,241,46,1) 100%);">
+                        <div class="border py-5 px-3">
+                            <i class="fas fa-tools fa-3x text-primary mb-4"></i>
+                            <h5 class="text-dark mb-0">OEM Komatsu Spare Parts</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="feature-item position-relative  text-center p-3" style="background: rgb(250,218,46);
+                    background: linear-gradient(90deg, rgba(250,218,46,1) 0%, rgba(250,237,46,1) 50%, rgba(250,241,46,1) 100%);">
+                        <div class="border py-5 px-3">
+                            <i class="fas fa-tools fa-3x text-primary mb-4"></i>
+                            <h5 class="text-dark mb-0">Caterpillar Genuine Parts</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="feature-item position-relative  text-center p-3" style="background: rgb(250,218,46);
+                    background: linear-gradient(90deg, rgba(250,218,46,1) 0%, rgba(250,237,46,1) 50%, rgba(250,241,46,1) 100%);">
+                        <div class="border py-5 px-3">
+                            <i class="fas fa-tools fa-3x text-primary mb-4"></i>
+                            <h5 class="text-dark mb-0">Caterpillar After Market</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Service Start -->
-    <div class="container-xxl py-5">
+    <section id="product1">
+    <div class="container-fluid py-5 mt-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid animated pulse infinite" src="img/img.jpg">
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="text-primary mb-4">Genuine Komatsu <span class="fw-light text-dark">Parts
+                         </span></h1>
+                    <p class="mb-4">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.</p>
+                    <p class="mb-4"></p>
+                    <!-- <a class="btn btn-primary py-2 px-4" href="">Shop Now</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    </section>
+    <div class="container-fluid py-5 mt-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid animated pulse infinite" src="img/img2.jpg">
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="text-primary mb-4"> OEM Komatsu <span class="fw-light text-dark">Spare Parts
+                         </span></h1>
+                    <p class="mb-4">UCP Heavy Equipment and Machinery Spare Parts provides customers with the OEM Komatsu Spare Parts from Japanese Manufacturers. These items are the high quality spare parts which meet the quality concerns of the customers with the best affordable prices.
+                     </p>
+                    <p class="mb-4">   The products which can be provided by the UCP are <br> •	Valves Fuji Oozex,
+                        •	Valves BEN
+                        •	Oil Pumps
+                        •	Water Pumps
+                        •	Daido Bearings
+                        •	Electrical Parts such as Nabtesco Products</p>
+                    <!-- <a class="btn btn-primary py-2 px-4" href="">Shop Now</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5">
+        <div class="container">
+            <div class="mx-auto text-center wow fadeIn" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="text-primary mb-3"><span class="fw-light text-dark">OEM Komatsu </span>Spare Parts</h1>
+                <p class="mb-5">"Explore Our High-Quality OEM Komatsu Spare Parts"</p>
+            </div>
+            <div class="row g-4">
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.1s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4 w-100 h-100" src="img/product.jpg" alt="" >
+                        <!-- <div class="mb-2">
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small class="fa fa-star text-primary"></small>
+                            <small>(99)</small>
+                        </div>
+                        <a href="" class="h6 d-inline-block mb-2">Hair Shining Shampoo</a>
+                        <h5 class="text-primary mb-3">$99.99</h5>
+                        <a href="" class="btn btn-outline-primary px-3">Add To Cart</a> -->
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.3s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4 w-100 h-100" src="img/product10.jpg" alt="">
+                   
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.5s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4 w-100 h-100" src="img/product11.jpg" alt="">
+                      
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4 w-100 h-100" src="img/product9.jpg" alt="">
+                       
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4 w-100 h-100" src="img/product8.jpg" alt="">
+                       
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4 w-100 h-100" src="img/product7.jpg" alt="">
+                       
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4 w-100 h-100" src="img/product6.jpg" alt="">
+                       
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4 w-100 h-100" src="img/product5.jpg" alt="">
+                       
+                    </div>
+                </div>
+                 <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4 w-100 h-100" src="img/product3.jpg" alt="">
+                       
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4 w-100 h-100" src="img/product2.jpg" alt="">
+                       
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4 w-100 h-100" src="img/product12.jpg" alt="">
+                       
+                    </div>
+                </div>
+                <div class="col-md-6 col-lg-3 wow fadeIn" data-wow-delay="0.7s">
+                    <div class="product-item text-center border h-100 p-4">
+                        <img class="img-fluid mb-4 w-100 h-100" src="img/product13.jpg" alt="">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid py-5 mt-5">
+        <div class="container">
+            <div class="row g-5 align-items-center">
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
+                    <img class="img-fluid animated pulse infinite" src="img/img4.jpg">
+                 
+                </div>
+                <div class="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
+                    <h1 class="text-primary mb-4">Caterpillar Genuine <span class="fw-light text-dark">Parts
+                         </span></h1>
+                    <p class="mb-4">We are specialized in the field of Caterpillar Spare Parts both:
+                        •	Genuine Caterpillar Spare Parts
+                        •	CTP Brand After Market Caterpillar Spare Parts.<br>
+                        The Caterpillar machinery that we Cover are:
+                        •	CAT 777D, CAT 777E
+                        •	CAT 773 E, CAT 773D
+                        •	Genset 3516, 3512, etc
+                          
+                     </p>
+                    <p class="mb-4">  </p>
+                    <!-- <a class="btn btn-primary py-2 px-4" href="">Shop Now</a> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div class="container-xxl py-5">
         <div class="container">
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 service-item-top wow fadeInUp" data-wow-delay="0.1s">
@@ -133,9 +348,9 @@
                         <img class="img-fluid w-100 h-100" src="img/img.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5>
+                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                         </p>
@@ -145,10 +360,10 @@
                         <img class="img-fluid w-100 h-100" src="img/img2.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">OEM Komatsu Spare Parts</h5>
+                        <h5 class="text-truncate me-3 mb-0">OEM Komatsu Spare Parts</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a>
                    ---> </div> 
-                    <p class="mb-0 mt-2">UCP Heavy Equipment and Machinery Spare Parts provides customers with the OEM Komatsu Spare Parts from Japanese Manufacturers. These items are the high quality spare parts which meet the quality concerns of the customers with the best affordable prices.
+                    <!-- <p class="mb-0 mt-2">UCP Heavy Equipment and Machinery Spare Parts provides customers with the OEM Komatsu Spare Parts from Japanese Manufacturers. These items are the high quality spare parts which meet the quality concerns of the customers with the best affordable prices.
                          The products which can be provided by the UCP are •	Valves Fuji Oozex,
                          •	Valves BEN
                          •	Oil Pumps
@@ -162,9 +377,9 @@
                         <img class="img-fluid w-100 h-100" src="img/img3.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Caterpillar Genuine Parts</h5>
+                        <h5 class="text-truncate me-3 mb-0">Caterpillar Genuine Parts</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">We are specialized in the field of Caterpillar Spare Parts both:
                         •	Genuine Caterpillar Spare Parts
                         •	CTP Brand After Market Caterpillar Spare Parts.<br>
@@ -180,9 +395,9 @@
                         <img class="img-fluid w-100 h-100" src="img/product.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Caterpillar Genuine Parts</h5>
+                        <h5 class="text-truncate me-3 mb-0">Caterpillar Genuine Parts</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                     </p>
@@ -192,9 +407,9 @@
                         <img class="img-fluid w-100 h-100" src="img/product10.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5>
+                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                         </p>
@@ -204,9 +419,9 @@
                         <img class="img-fluid w-100 h-100" src="img/product11.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5>
+                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                         </p>
@@ -216,9 +431,9 @@
                         <img class="img-fluid w-100 h-100" src="img/product12.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5>
+                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                         </p>
@@ -228,9 +443,9 @@
                         <img class="img-fluid w-100 h-100" src="img/product13.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5>
+                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                         </p>
@@ -240,9 +455,9 @@
                         <img class="img-fluid w-100 h-100" src="img/product2.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5>
+                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                         </p>
@@ -252,9 +467,9 @@
                         <img class="img-fluid w-100 h-100" src="img/product3.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5>
+                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                         </p>
@@ -264,9 +479,9 @@
                         <img class="img-fluid w-100 h-100" src="img/product5.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5>
+                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                         </p>
@@ -276,9 +491,9 @@
                         <img class="img-fluid w-100 h-100" src="img/product6.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5>
+                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                         </p>
@@ -288,9 +503,9 @@
                         <img class="img-fluid w-100 h-100" src="img/product7.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5>
+                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                         </p>
@@ -300,9 +515,9 @@
                         <img class="img-fluid w-100 h-100" src="img/product8.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5>
+                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                         </p>
@@ -312,16 +527,16 @@
                         <img class="img-fluid w-100 h-100" src="img/product9.jpg" alt="">
                     </div>
                     <div class="d-flex align-items-center justify-content-between bg-light p-4">
-                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5>
+                        <h5 class="text-truncate me-3 mb-0">Genuine Komatsu</h5> -->
                         <!-- <a class="btn btn-square btn-outline-primary border-2 border-white flex-shrink-0" href=""><i class="fa fa-arrow-right"></i></a> -->
-                    </div>
+                    <!-- </div>
                     <p class="mb-0 mt-2">UCP provides its customers with the best quality Genuine Komatsu Spare Parts. We have been providing to our customers with Genuine Komatsu Spare Parts since 2006 and we have the best reputation in this field. We also provide customer with spare parts for Komatsu machinery such as PC200, PC400, HD 325, HD785, Komatsu 470, Komatsu WA600, Komatsu WA300.
 
                         </p>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     
     <!-- Service End -->
 
